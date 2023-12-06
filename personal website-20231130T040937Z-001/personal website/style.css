@@ -1,0 +1,95 @@
+/*header section*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    /* background-color:rgb(8, 45, 59); */
+    /* border: 1px solid black; */
+    height: 85px;
+    /* overflow: hidden; */
+    display: block;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+ 
+
+    
+}
+.logo {
+    width: 15%;
+    /* float: left; */
+    /* border: 1px solid red; */
+    margin-top: 31px;
+}
+.logo img {
+    width: 100px;
+}
+nav {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    /* float: right; */
+    /* border: 1px solid blue; */
+}
+ul li{
+    float: left;
+    margin: 20px 20px;
+    font-size: 13px;
+    text-align: center;
+    list-style-type: none;
+    
+
+}
+li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color:blue;
+}
+.dropdown_contain a {
+    display: block;
+    padding: 10px 10px;
+    display: none;
+}
+.dropdown_contain :hover {
+    display: block;
+}
+/*home section*/
+section {
+    /* border: 1px solid red; */
+    /* height: 300px; */
+}
+
+.home {
+  width: 80%;
+  margin: auto;
+  padding: 30px 30px;
+  /* border: 1px solid red; */
+  height: 300px;
+}
+.img_1{
+    width: 50%;
+    float: right;
+   
+}
+.img_1 img {
+    width: 300px;
+    overflow: hidden;
+    /* border: 1px solid blue; */
+}
+.details {
+    width: 50%;
+    float: left;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+
+
+    
